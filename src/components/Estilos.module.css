@@ -1,0 +1,13 @@
+.image {
+    /* background-image: url('https://rickandmortyapi.com/api/character/avatar/48.jpeg');  */
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+
+  .image {
+    max-width: 100px; /* Ancho máximo deseado */
+    max-height: 100px; /* Altura máxima deseada */
+    width: auto; /* Ancho automático para mantener la proporción */
+    height: auto; /* Altura automática para mantener la proporción */
+    
+  }
