@@ -1,0 +1,27 @@
+.my-seccion-element {
+    padding-top: 0.25rem; /* Ajusta el relleno superior según tus necesidades */
+    padding-bottom: 0.25rem; /* Ajusta el relleno inferior según tus necesidades */
+  }
+
+  .my-custom-row {
+    margin-bottom: 0.25rem; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+
+  .my-custom-column480 {
+    width: 100%; /* Opcional: puedes ajustar el ancho según tus necesidades */
+    max-width: 480px; /* Opcional: establece un ancho máximo para la columna */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .my-custom-textVerde {
+    font-weight: bold;
+    color: #28a745; /* Color verde, puedes ajustarlo según tus necesidades */
+    margin-bottom: 2px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+  .my-bold-text {
+    font-weight: bold;
+  }

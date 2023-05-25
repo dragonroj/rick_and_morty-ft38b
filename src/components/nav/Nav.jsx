@@ -1,6 +1,9 @@
-import React from "react";
-import SearchBar from "../SearchBar.jsx";
-export default function Nav(props){
+import SearchBar from "./SearchBar.jsx";
+import {NavLink} from "react-router-dom"
+
+const Nav =function(props){
+
+    
     return (
         <div>
         <SearchBar
@@ -9,3 +12,4 @@ export default function Nav(props){
         </div>
     )
 }
+export default Nav;
