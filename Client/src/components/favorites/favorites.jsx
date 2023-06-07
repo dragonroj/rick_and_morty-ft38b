@@ -2,6 +2,8 @@ import Card from '../card/Card.jsx';
 import { connect,useDispatch } from 'react-redux';
 import { filtersCards,ordersCards } from '../../redux/actions.js';
 import {useState} from "react";
+
+
 const Favorites= ({myFavorites})=>{
 
 const [aux,setAux]=useState(false);
@@ -48,3 +50,4 @@ const handleFilter =(event)=>{
     );
 };
 
+export default Favorites;

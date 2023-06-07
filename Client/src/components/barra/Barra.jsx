@@ -9,10 +9,11 @@ const Barra =function(props){
             <div className="collapse navbar-collapse" id="navcol-1" style={{color: 'rgb(255, 255, 255)'}}>
                 <ul className="navbar-nav nav-right">
                     <li className="nav-item"><a className="nav-link active" href="/" style={{color: 'rgba(224,217,217,0.9)',textShadow: '0px 0px 12px'}}>home </a></li>
-                    <li className="nav-item"><a className="nav-link" href="/faq" style={{color: 'rgba(224,217,217,0.9)',textShadow: '0px 0px 12px'}}>faq </a></li>
+                    <li className="nav-item"><a className="nav-link" href="/favs" style={{color: 'rgba(224,217,217,0.9)',textShadow: '0px 0px 12px'}}>favorites </a></li>
                     <li className="nav-item"><a className="nav-link" href="/contact" style={{color: 'rgba(224,217,217,0.9)',textShadow: '0px 0px 12px'}}>contact </a></li>
+                   
                 </ul>
-                <p className="ms-auto navbar-text actions"><a className="login" href="/login" style={{color: 'rgba(224,217,217,0.9)'}}>Log In</a> <a className="btn btn-light action-button" role="button" href="/signup" style={{color: 'rgba(0,0,0,0.9)',background: 'var(--bs-gray-200)',borderRadius: '10px',borderStyle: 'solid',borderColor: 'rgba(0,0,0,0.9)',fontSize: '16px',padding: '5px 8px'}}>Sign Up</a></p>
+                <p className="ms-auto navbar-text actions"><a className="login" href="/" style={{color: 'rgba(224,217,217,0.9)'}}>Log In</a> <a className="btn btn-light action-button" role="button" href="/signup" style={{color: 'rgba(0,0,0,0.9)',background: 'var(--bs-gray-200)',borderRadius: '10px',borderStyle: 'solid',borderColor: 'rgba(0,0,0,0.9)',fontSize: '16px',padding: '5px 8px'}}>Sign Up</a></p>
             </div>
         </div>
         </nav>
